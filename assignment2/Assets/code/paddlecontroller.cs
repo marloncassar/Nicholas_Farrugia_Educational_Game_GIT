@@ -18,7 +18,7 @@ public class paddlecontroller : MonoBehaviour {
 
 		if (other.gameObject != null) {
 			Destroy (other.gameObject);
-			transform.localScale += new Vector3 (0.3F, 0.2f, 0);
+			transform.localScale += new Vector3 (0.5F, 0.2f, 0);
 		}
 		yield return new WaitForSeconds (10f);
 		transform.localScale -= new Vector3 (0.3F, 0.2f, 0);
